@@ -1,0 +1,66 @@
+.navBar {
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.cardWrapper {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 1rem;
+  .cardContainer {
+    // background-color: bisque;
+    padding: 1rem;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    width: 17rem;
+  }
+}
+.list {
+  display: flex;
+  justify-content: center;
+}
+.listItems {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.label {
+  font-size: 1rem;
+  font-weight: 700;
+  color: black;
+}
+
+.paginationContainer {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+  .paginationButton {
+    height: 2rem;
+    border: 1px solid black;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    background-color: black;
+    color: white;
+  }
+  .currentPage {
+    font-weight: 700;
+    font-size: 1.2rem;
+  }
+}

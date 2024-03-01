@@ -1,0 +1,23 @@
+.navBar {
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.homeWrapper {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.desc {
+  padding: 1rem;
+  color: red;
+  font-size: 1.5rem;
+  font-weight: 700;
+}

@@ -1,0 +1,59 @@
+.signInContainer {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .formWrapper {
+    padding: 5rem;
+    padding-top: 5rem;
+    border-radius: 1rem;
+    background-color: rgb(147, 147, 147);
+    width: fit-content;
+    border: 3px solid rgb(147, 147, 147);
+    background: linear-gradient(
+      90deg,
+      rgb(83, 79, 144) 0%,
+      rgb(103, 35, 148) 44%,
+      rgb(158, 5, 115) 100%
+    );
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 478px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .inputField {
+    border: 3px solid black;
+    padding: 1rem;
+    background-color: aliceblue;
+    &::placeholder {
+      color: rgb(0, 0, 0);
+    }
+  }
+  .sectionWrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  .submitButton {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 14rem;
+  }
+}
+.label {
+  font-size: 1.3rem;
+  color: white;
+}
+
+.error {
+  color: red;
+  font-size: 1rem;
+}
